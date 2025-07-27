@@ -3,4 +3,4 @@
 [![License](https://img.shields.io/github/license/theinvisiblelab/invisible-languages)](LICENSE)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/theinvisiblelab/facemeasure)
 
-Finding and boosting invisible languages on the Internet
+Finding and boosting invisible languages on the internet. Learn more about the [Invisible Languages](https://theinvisiblelab.org/languages) project.
