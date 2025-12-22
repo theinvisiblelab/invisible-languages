@@ -28,7 +28,8 @@ flowchart LR
     A["Phase 1: Assess Need"] L_A_B_0@==> B
     B L_B_C_0@-- Ample text encoded --> C
     C L_C_D_0@-- Text is retrievable --> D
-    D L_D_A_0@==> A & Policy["Policy Implications"]
+    D L_D_A_0@-- Feedback --> A
+    D L_D_Policy_0@==> Policy["Policy Implications"]
     C1 -..- B
     C4 -..- B
     C3 -..- C
@@ -72,4 +73,3 @@ flowchart LR
     L_D_A_0@{ animation: slow } 
     L_D_Policy_0@{ animation: slow }
 ```
-
