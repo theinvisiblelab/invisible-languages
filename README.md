@@ -9,10 +9,10 @@ Finding and boosting invisible languages on the internet. Learn more about the [
 ---
 config:
   layout: elk
-title: Invisible Languages Pipeline
+title: Visibility Pipeline for Invisible Languages
 ---
 flowchart LR
- subgraph collabs["<i>Collaborators</i>"]
+ subgraph collabs["Collaborators"]
         C1("SILICON, Stanford")
         C2("CredOx, Oxford")
         C3("Wikimedia")
@@ -57,7 +57,7 @@ flowchart LR
     classDef Rose stroke-width:1px, stroke-dasharray:none, stroke:#FF5978, fill:#FFDFE5, color:#8E2236
     classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
     classDef Pine stroke-width:1px, stroke-dasharray:none, stroke:#254336, fill:#27654A, color:#FFFFFF
-    style collabs stroke:#BBDEFB,fill:#FFFFFF
+    style collabs stroke:none
     style pipeline stroke:none
     linkStyle 5 stroke:#D50000,fill:none
     linkStyle 6 stroke:#D50000,fill:none
