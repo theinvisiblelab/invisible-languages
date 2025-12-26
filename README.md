@@ -1,9 +1,13 @@
 # invisible-languages
 
 [![License](https://img.shields.io/github/license/theinvisiblelab/invisible-languages)](LICENSE)
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/theinvisiblelab/facemeasure)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/theinvisiblelab/invisible-languages)
 
-Finding and boosting invisible languages on the internet. Learn more about the [Invisible Languages](https://theinvisiblelab.org/languages) project.
+**Community-led tools and resources for making underrepresented languages usable online.**
+
+Supporting communities to make their languages typable, findable, and sustainable in digital spaces - from keyboards and fonts to preservation and learning pathways.
+
+[Learn more](https://theinvisiblelab.org/languages)
 
 ```mermaid
 ---
