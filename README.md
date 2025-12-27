@@ -3,8 +3,6 @@
 [![License](https://img.shields.io/github/license/theinvisiblelab/invisible-languages)](LICENSE)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/theinvisiblelab/invisible-languages)
 
-**Community-led tools and resources for making underrepresented languages usable online.**
-
 Supporting communities to make their languages typable, findable, and sustainable in digital spaces - from keyboards and fonts to preservation and learning pathways.
 
 [Learn more](https://theinvisiblelab.org/languages)
@@ -25,9 +23,9 @@ flowchart LR
         C6("Common Crawl")
   end
  subgraph pipeline[" "]
-        B["Phase 2: Encode langauge as text<br>"]
-        C["Phase 3: Retrieve encoded texts<br>"]
-        D["Phase 4: Amplification<br><br><i>Fairmodels<br>Librelingo</i>"]
+        B["Encode langauge as text<br>"]
+        C["Retrieve encoded texts<br>"]
+        D["Amplification<br><br><i>Fairmodels<br>Librelingo</i>"]
   end
     A["Phase 1: Assess Need"] L_A_B_0@==> B
     B L_B_C_0@-- Ample text encoded --> C
