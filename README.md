@@ -3,9 +3,9 @@
 [![License](https://img.shields.io/github/license/theinvisiblelab/invisible-languages)](LICENSE)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/theinvisiblelab/invisible-languages)
 
-Supporting communities to make their languages typable, findable, and sustainable in digital spaces - from keyboards and fonts to preservation and learning pathways.
+The Invisible Languages Project aims to support community-led efforts towards making their languages more _typable_, _findable_, and _sustainable_ in digital spaces - from keyboards and fonts to preservation and learning pathways.
 
-[Learn more](https://theinvisiblelab.org/languages)
+Intitial statistics [here](https://theinvisiblelab.org/languages).
 
 ```mermaid
 ---
@@ -23,14 +23,14 @@ flowchart LR
         C6("Common Crawl")
   end
  subgraph pipeline[" "]
-        B["Encode langauge as text<br>"]
-        C["Retrieve encoded texts<br>"]
-        D["Amplification<br><br><i>Fairmodels<br>Librelingo</i>"]
+        B["Encode langauge as script<br>"]
+        C["Retrieve encoded scripts<br>"]
+        D["Sustenance/Amplification<br><br><i>Fairmodels<br>Librelingo</i>"]
   end
     A["Phase 1: Assess Need"] L_A_B_0@==> B
-    B L_B_C_0@-- Ample text encoded --> C
-    C L_C_D_0@-- Text is retrievable --> D
-    D L_D_A_0@-- Feedback --> A
+    B L_B_C_0@== Ample text encoded ==> C
+    C L_C_D_0@== Text is retrievable ==> D
+    D L_D_A_0@== Feedback ==> A
     D L_D_Policy_0@==> Policy["Policy Implications"]
     C1 -..- B
     C4 -..- B
@@ -74,4 +74,5 @@ flowchart LR
     L_C_D_0@{ animation: slow } 
     L_D_A_0@{ animation: slow } 
     L_D_Policy_0@{ animation: slow }
+
 ```
